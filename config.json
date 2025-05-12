@@ -1089,6 +1089,71 @@
     },
     {
       "label": [
+        "Select all time periods you are available for the initial phone date.",
+        "The date will occur within 48 hours of submitting the form.",
+        "The specific time will be scheduled during the initial contact",
+        "after submission.",
+        "The date will last at least 30 minutes to 1 hour, possibly longer",
+        "if time permits.",
+        "If you do not want to share your phone number,",
+        "<a href='https://telegram.org/' target='_blank'>Telegram</a>",
+        "is a viable private alternative"
+      ],
+      "name": "phone_date_availability",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select one or more options--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        { "label": "Morning (8am–12pm)", "value": "morning" },
+        { "label": "Early afternoon (12pm–3pm)", "value": "early_afternoon" },
+        { "label": "Late afternoon (3pm–6pm)", "value": "late_afternoon" },
+        { "label": "Evening (6pm–9pm)", "value": "evening" },
+        { "label": "Late night (9pm–12am)", "value": "late_night" },
+        { "label": "Flexible/any time", "value": "flexible" },
+        { "label": "Weekdays only", "value": "weekdays" },
+        { "label": "Weekends only", "value": "weekends" }
+      ],
+      "custom": {
+        "multiple": true
+      }
+    },
+    {
+      "label": [
+        "What is your preferred method for the initial contact",
+        "(to schedule the initial phone date)"
+      ],
+      "name": "preferred_contact_method",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select an option--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        { "label": "Text message", "value": "text_message" },
+        { "label": "Email", "value": "email" },
+        { "label": "No preference", "value": "no_preference" },
+        { "label": "Other", "value": "other" }
+      ]
+    },
+    {
+      "label": [
+        "If you selected 'Other', please describe your preferred",
+        "contact method below"
+      ],
+      "name": "preferred_contact_method_other",
+      "type": "textarea",
+      "required": false
+    },
+    {
+      "label": [
         "Please type your initials below to verify that",
         "you have read the following article",
         "(<a href='https://chadthunderkok.com/blog/2024/08/21/dating-expectations' target='_blank'>",
@@ -1100,8 +1165,12 @@
         "blog</a>",
         "and",
         "<a href='https://linktr.ee/chadthunderkok' target='_blank'>",
-        "social media</a>,",
-        "and that you acknowledge you are submitting",
+        "social media</a>.",
+        "Also that you understand that you will be contacted through your",
+        "preferred contact method (and email as a back up) and you will be",
+        "required to choose a specific time to have the",
+        "initial phone date within 48 hours of submitting the form.",
+        "Finally you acknowledge that you are submitting",
         "the form of your own volition and fully accept the conditions",
         "laid out in the aforementioned article"
       ],
