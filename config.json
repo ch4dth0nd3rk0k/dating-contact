@@ -1089,6 +1089,26 @@
     },
     {
       "label": [
+        "As a woman (cis or trans) who is attracted to men, what are your thoughts",
+        "on men who are attracted to trans women? This could include men who",
+        "exclusively date trans women, men who are attracted to both cis and trans",
+        "women, or men who are exploring that attraction.",
+        "Do you see this kind of attraction as valid or meaningful? Does it raise",
+        "any questions or feelings for you personally, as a woman, or in relation",
+        "to dating, desirability, or safety?",
+        "Please be as open and thoughtful as you like.",
+        "There are no wrong answers here.",
+        "Also please reference the following",
+        "<a href='https://chadthunderkok.com/blog/2025/03/08/defense-of-transattraction' target='_blank'>",
+        "article",
+        "</a>"
+      ],
+      "name": "thoughts_on_transattraction",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "label": [
         "Select all time periods you are available for the initial phone date.",
         "The date will occur within 48 hours of submitting the form.",
         "The specific time will be scheduled during the initial contact",
