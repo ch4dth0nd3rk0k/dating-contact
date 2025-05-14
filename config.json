@@ -1089,6 +1089,49 @@
     },
     {
       "label": [
+        "Do you currently own property?"
+      ],
+      "name": "property_ownership",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select an option--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        { "label": "Yes, I own my primary residence", "value": "own_primary" },
+        { "label": "Yes, I own multiple properties", "value": "own_multiple" },
+        { "label": "Yes, I co-own property with someone", "value": "co_own" },
+        { "label": "No, but I’m in the process of buying", "value": "buying_process" },
+        { "label": "No, I rent", "value": "renting" },
+        { "label": "No, I live with family or friends", "value": "live_with_others" }        ]
+    },
+    {
+      "label": [
+        "How would you describe your current financial status?"
+      ],
+      "name": "financial_status",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select an option--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        { "label": "Struggling to meet basic needs", "value": "struggling" },
+        { "label": "Living paycheck to paycheck", "value": "paycheck_to_paycheck" },
+        { "label": "Stable with little disposable income", "value": "stable_low_extras" },
+        { "label": "Comfortable with some savings", "value": "comfortable" },
+        { "label": "Financially secure with significant assets", "value": "secure" },
+        { "label": "Wealthy or independently wealthy", "value": "wealthy" }
+      ]
+    },
+    {
+      "label": [
         "As a woman (cis or trans) who is attracted to men, what are your thoughts",
         "on men who are attracted to trans women? This could include men who",
         "exclusively date trans women, men who are attracted to both cis and trans",
