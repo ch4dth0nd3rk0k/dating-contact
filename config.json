@@ -1109,6 +1109,65 @@
     },
     {
       "label": [
+        "Below I have a list of links to some of my content:",
+        "<ul>",
+        "<li><a href='https://x.com/ch4dth0nd3rk0k/status/1917674803672047931' target='_blank'>",
+        "Show Her You Love Her</a></li>",
+        "<li><a href='https://x.com/ch4dth0nd3rk0k/status/1921979698730389589' target='_blank'>",
+        "I Can Fix Her</a></li>",
+        "<li><a href='https://x.com/ch4dth0nd3rk0k/status/1910805612763505008' target='_blank'>",
+        "I Like Being Bad</a></li>",
+        "<li><a href='https://x.com/lafemmephile/status/1898098298331824503' target='_blank'>",
+        "Animals</a></li>",
+        "<li><a href='https://x.com/lafemmephile/status/1881123189918748943' target='_blank'>",
+        "Candy Boy</a></li>",
+        "<li><a href='https://x.com/lafemmephile/status/1878451861260230873' target='_blank'>",
+        "Bonita</a></li>",
+        "<li><a href='https://x.com/lafemmephile/status/1872334123307811248' target='_blank'>",
+        "Kickstart My Heart</a></li>",
+        "<li><a href='https://x.com/lafemmephile/status/1723784886148837680' target='_blank'>",
+        "VENI. VIDI. VICI.</a></li>",
+        "</ul>",
+        "I would like you to review the links and select which ones you like"
+      ],
+      "name": "favorite_content_nsfw",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select one or more options--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        { "label": "Show Her You Love Her", "value": "show_her_your_love" },
+        { "label": "I Can Fix Her", "value": "i_can_fix_her" },
+        { "label": "I Like Being Bad", "value": "i_like_being_bad" },
+        { "label": "Animals", "value": "animals" },
+        { "label": "Candy Boy", "value": "candy_boy" },
+        { "label": "Bonita", "value": "bonita" },
+        { "label": "Kickstart My Heart", "value": "kickstart_my_heart" },
+        { "label": "VENI. VIDI. VICI.", "value": "veni_vidi_vici" }
+      ],
+      "custom": {
+        "multiple": true
+      }
+    },
+    {
+      "label": [
+        "How did the content you viewed make you feel?",
+        "Did you enjoy it? Did anything disturb or unsettle you?",
+        "Did you find it funny, arousing, confusing, or even upsetting?",
+        "Be as detailed, emotional, or analytical as you want.",
+        "There are no right or wrong reactions — just your honest response.",
+        "Write as much or as little as you desire"
+      ],
+      "name": "thoughts_on_my_content",
+      "type": "textarea",
+      "required": true
+    },
+    {
+      "label": [
         "Select all time periods you are available for the initial phone date.",
         "The date will occur within 48 hours of submitting the form.",
         "The specific time will be scheduled during the initial contact",
