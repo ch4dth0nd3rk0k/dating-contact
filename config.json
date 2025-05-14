@@ -913,6 +913,14 @@
       }
     },
     {
+      "label": "How many children do you have",
+      "name": "number_of_children",
+      "type": "number",
+      "required": true,
+      "custom": {
+        "min": "0"      }
+    },
+    {
       "label": [
         "Tell me about a difficult time in your life. It could be related to anything",
         "(e.g. romantic, familial, work, personal, etc...) and how you went about",
