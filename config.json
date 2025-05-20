@@ -11,7 +11,7 @@
     "and",
     "<a href='https://linktr.ee/chadthunderkok' target='_blank'>",
     "social media</a>.",
-    "I will respond within <b>24-hours</b> <i>guaranteed</i>.",
+    "I will respond <b>ASAP</b>.",
     "I sincerely appreciate your time and energy on my behalf",
     "and I look forward to hearing from you.",
     "</p>"
@@ -922,16 +922,6 @@
     },
     {
       "label": [
-        "Tell me about a difficult time in your life. It could be related to anything",
-        "(e.g. romantic, familial, work, personal, etc...) and how you went about",
-        "solving said problem as well as what you learned in the process"
-      ],
-      "name": "problem_anecdote",
-      "type": "textarea",
-      "required": true
-    },
-    {
-      "label": [
         "How many close friends (people you talk to almost every day) would you say",
         "that you have"
       ],
@@ -941,14 +931,6 @@
       "custom": {
         "min": "0"
       }
-    },
-    {
-      "label": [
-        "What traits do you prioritize in the people you surround yourself with"
-      ],
-      "name": "friend_traits",
-      "type": "textarea",
-      "required": true
     },
     {
       "label": "Select all the social media platforms that you actively use",
@@ -1034,69 +1016,6 @@
     },
     {
       "label": [
-        "In your own words, tell me about what you are ideally looking for",
-        "in terms of relationships. Be as detailed and specific as you can.",
-        "Do not be shy, be brutally honest about what you are looking for"
-      ],
-      "name": "ideal_match_essay",
-      "type": "textarea",
-      "required": true
-    },
-    {
-      "label": [
-        "In your own words, tell me about why we match?",
-        "Be specific about why you are contacting me, and based off",
-        "of what you know about me why we match?",
-        "What about you specifically makes you compatible with me"
-      ],
-      "name": "our_match_essay",
-      "type": "textarea",
-      "required": true
-    },
-    {
-      "label": [
-        "What do you believe you bring to a relationship?",
-        "In other words what do you believe you have to offer another",
-        "person in a relationship"
-      ],
-      "name": "bring_2_table",
-      "type": "textarea",
-      "required": true
-    },
-    {
-      "label": [
-        "Have you ever felt like you needed to test a partner's boundaries?",
-        "What was your thought process behind it"
-      ],
-      "name": "test_partner_boundaries",
-      "type": "textarea",
-      "required": true
-    },
-    {
-      "label": [
-        "A lot of people say they want to be challenged or put in their place.",
-        "What does that mean to you, and do you think it adds value to a relationship?",
-        "Is it something you look for specifically"
-      ],
-      "name": "challenge_seeking",
-      "type": "textarea",
-      "required": true
-    },
-    {
-      "label": [
-        "Can you give a few examples of how you have invested in yourself",
-        "over the years? This can be anything where you personally had to",
-        "commit the time and energy to achieve some goal. For example, have you",
-        "started your own business? Built your own home? Completed higher education?",
-        "Learned a specific skill, trade, or craft? Please be as detailed",
-        "and verbose as possible. Write as much as you want"
-      ],
-      "name": "self_investing",
-      "type": "textarea",
-      "required": true
-    },
-    {
-      "label": [
         "Do you currently own property?"
       ],
       "name": "property_ownership",
@@ -1137,27 +1056,6 @@
         { "label": "Financially secure with significant assets", "value": "secure" },
         { "label": "Wealthy or independently wealthy", "value": "wealthy" }
       ]
-    },
-    {
-      "label": [
-        "As a feminine person who is attracted to men, what are your thoughts",
-        "on men who are attracted to trans women? This could include men who",
-        "exclusively date trans women, men who are attracted to both cis and trans",
-        "women, or men who are exploring that attraction.",
-        "Do you see this kind of attraction as valid or meaningful? Does it raise",
-        "any questions or feelings for you personally, or in relation",
-        "to dating, or desirability?",
-        "Please be as open and thoughtful as you like.",
-        "There are no wrong answers here.",
-        "Also please see the following",
-        "<a href='https://chadthunderkok.com/blog/2025/03/08/defense-of-transattraction' target='_blank'>",
-        "article",
-        "</a>",
-        "for reference"
-      ],
-      "name": "thoughts_on_transattraction",
-      "type": "textarea",
-      "required": true
     },
     {
       "label": [
@@ -1207,21 +1105,7 @@
     },
     {
       "label": [
-        "How did the content you viewed make you feel?",
-        "Did you enjoy it? Did anything disturb or unsettle you?",
-        "Did you find it funny, arousing, confusing, or even upsetting?",
-        "Be as detailed, emotional, or analytical as you want.",
-        "There are no right or wrong reactions — just your honest response.",
-        "Write as much or as little as you desire"
-      ],
-      "name": "thoughts_on_my_content",
-      "type": "textarea",
-      "required": true
-    },
-    {
-      "label": [
         "Select all time periods you are available for the initial phone date.",
-        "The date will occur within 48 hours of submitting the form.",
         "The specific time will be scheduled during the initial contact",
         "after submission.",
         "The date will last at least 30 minutes to 1 hour, possibly longer",
@@ -1297,12 +1181,16 @@
         "and",
         "<a href='https://linktr.ee/chadthunderkok' target='_blank'>",
         "social media</a>.",
-        "Also that you understand that you will be contacted through your",
-        "preferred contact method (and email as a back up) and you will be",
-        "required to choose a specific time to have the",
-        "initial phone date within 48 hours of submitting the form.",
-        "Finally you acknowledge that you are submitting",
-        "the form of your own volition and fully accept the conditions",
+        "Also, you understand and accept the",
+        "<a href='https://chadthunderkok.com/blog/2024/08/21/dating-expectations#required-sexual-compatibility' target='_blank'>",
+        "sexual expectations</a>",
+        "detailed in the article.",
+        "You acknowledge that you will be contacted through your",
+        "preferred contact method (and email as a backup) and will be",
+        "required to choose a specific time for the",
+        "initial phone date.",
+        "Finally, you acknowledge that you are submitting",
+        "this form of your own volition and fully accept the conditions",
         "laid out in the aforementioned article"
       ],
       "name": "verify_expectations_understood",
