@@ -892,6 +892,30 @@
       }
     },
     {
+      "label": [
+        "At what age did you get your first kiss",
+        "(type 0 if never kissed)"
+      ],
+      "name": "first_kiss_age",
+      "type": "number",
+      "required": true,
+      "custom": {
+        "min": "0"
+      }
+    },
+    {
+      "label": [
+        "At what age did you lose your virginity",
+        "(type 0 if virgin)"
+      ],
+      "name": "lost_virginity_age",
+      "type": "number",
+      "required": true,
+      "custom": {
+        "min": "0"
+      }
+    },
+    {
       "label": "How many sexual partners have you had",
       "name": "body_count_total",
       "type": "number",
@@ -910,6 +934,61 @@
       "required": true,
       "custom": {
         "min": "0"
+      }
+    },
+    {
+      "label": [
+        "What racial or ethnic backgrounds have",
+        "you dated in the past"
+      ],
+      "name": "races_dated",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select all that apply--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        { "label": "Black / African descent", "value": "black" },
+        { "label": "Latino / Hispanic", "value": "latino" },
+        { "label": "White / European descent", "value": "white" },
+        { "label": "East Asian", "value": "east-asian" },
+        { "label": "South Asian", "value": "south-asian" },
+        { "label": "Middle Eastern / North African", "value": "mena" },
+        { "label": "Indigenous / Native American", "value": "indigenous" },
+        { "label": "Mixed / Multiracial", "value": "mixed" },
+        { "label": "Other", "value": "other" }
+      ],
+      "custom": {
+        "multiple": true
+      }
+    },
+    {
+      "label": "What racial or ethnic backgrounds would you consider dating",
+      "name": "races_considered_dating",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select all that apply--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        { "label": "Black / African descent", "value": "black" },
+        { "label": "Latino / Hispanic", "value": "latino" },
+        { "label": "White / European descent", "value": "white" },
+        { "label": "East Asian", "value": "east-asian" },
+        { "label": "South Asian", "value": "south-asian" },
+        { "label": "Middle Eastern / North African", "value": "mena" },
+        { "label": "Indigenous / Native American", "value": "indigenous" },
+        { "label": "Mixed / Multiracial", "value": "mixed" },
+        { "label": "Other", "value": "other" }
+      ],
+      "custom": {
+        "multiple": true
       }
     },
     {
