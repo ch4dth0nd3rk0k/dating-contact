@@ -1250,6 +1250,52 @@
     },
     {
       "label": [
+        "Even if we do not match romantically, I am looking to interview people",
+        "or include collaborators in creative content",
+        " — both serious and comedic — centered around the following themes:",
+        "<ul>",
+        "<li>Trans Women Sexuality & Psychology</li>",
+        "<li>Trans Attraction in Straight Men</li>",
+        "<li>Masculinity</li>",
+        "<li>Dating Strategy & Tactics</li>",
+        "<li>General Life Wisdom / Strategy</li>",
+        "</ul>",
+        "Would you be open to appearing in or helping shape content related",
+        "to any of these themes (you can remain anonymous)"
+      ],
+      "name": "collab_interest_themes",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select one or more themes (or 'None')--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        { "label": "Trans Women Sexuality & Psychology", "value": "trans_women_psych" },
+        { "label": "Trans Attraction in Straight Men", "value": "trans_attraction" },
+        { "label": "Masculinity", "value": "masculinity" },
+        { "label": "Dating Strategy & Tactics", "value": "dating_strategy" },
+        { "label": "General Life Wisdom / Strategy", "value": "life_strategy" },
+        { "label": "Other (not listed here)", "value": "other" },
+        { "label": "None of these / Not interested", "value": "not_interested" }
+      ],
+      "custom": {
+        "multiple": true
+      }
+    },
+    {
+      "label": [
+        "If you selected 'Other', what kind of content",
+        "or theme are you interested in collaborating on"
+      ],
+      "name": "collab_interest_other_detail",
+      "type": "textarea",
+      "required": false
+    },
+    {
+      "label": [
         "Please type your initials below to verify that",
         "you have read the following article",
         "(<a href='https://chadthunderkok.com/blog/2024/08/21/dating-expectations' target='_blank'>",
