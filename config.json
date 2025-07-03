@@ -885,6 +885,58 @@
       }
     },
     {
+      "label": [
+        "What role(s) are you applying for?",
+        "Please choose from the following:",
+        "<ul>",
+        "<li>Potential Girlfriend / Romantic Match: Looking for a romantic, long-term connection.</li>",
+        "&nbsp;",
+        "<li>Content Collaborator / Interviewee: Interested in contributing to creative projects, interviews, or discussions.</li>",
+        "&nbsp;",
+        "<li>Submissive Role: Seeking a consensual Dominant/submissive dynamic where <i>you</i> will be my submissive and <i>I</i> will be your Dominant.</li>",
+        "&nbsp;",
+        "<li>Other: Something else not listed here (please specify below).</li>",
+        "</ul>",
+        "Select all the roles you are interested in below (you can choose more than one)"
+      ],
+      "name": "applicant_role",
+      "type": "selectbox",
+      "required": true,
+      "options": [
+        {
+          "label": "--Select one or more--",
+          "value": "",
+          "selected": true,
+          "disabled": true
+        },
+        {
+          "label": "Potential Girlfriend / Romantic Match",
+          "value": "girlfriend"
+        },
+        {
+          "label": "Content Collaborator / Interviewee",
+          "value": "collaborator"
+        },
+        {
+          "label": "Submissive / D/s Role",
+          "value": "submissive"
+        },
+        {
+          "label": "Other (please specify below)",
+          "value": "other"
+        }
+      ],
+      "custom": {
+        "multiple": true
+      }
+    },
+    {
+      "label": "If you selected 'Other', please specify",
+      "name": "applicant_role_other",
+      "type": "textarea",
+      "required": false
+    },
+    {
       "label": "Currently how many different people are you dating/talking to",
       "name": "current_dating_pool",
       "type": "number",
