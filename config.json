@@ -1148,7 +1148,7 @@
     },
     {
       "label": [
-        "Do you currently own property?"
+        "Do you currently own property"
       ],
       "name": "property_ownership",
       "type": "selectbox",
@@ -1169,7 +1169,7 @@
     },
     {
       "label": [
-        "How would you describe your current financial status?"
+        "How would you describe your current financial status"
       ],
       "name": "financial_status",
       "type": "selectbox",
@@ -1336,7 +1336,7 @@
     {
       "label": [
         "If you selected 'Other', what kind of content",
-        "or theme are you interested in collaborating on"
+        "or themes are you interested in collaborating on"
       ],
       "name": "collab_interest_other_detail",
       "type": "textarea",
