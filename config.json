@@ -2,9 +2,11 @@
   "instructions": [
     "<p>",
     "Before filling out the below form, you are required to read",
-    "the following article:",
+    "the following article on",
     "<a href='https://chadthunderkok.com/blog/2024/08/21/dating-expectations' target='_blank'>",
-    "Dating Expectations</a>.",
+    "dating expectations</a>, and complete and upload a",
+    "<a href='https://chadthunderkok.com/blog/2025/07/05/video-essay-submission' target='_blank'>",
+    "video essay</a>.",
     "I would strongly recommend that you review the content posted on my",
     "<a href='https://chadthunderkok.com/pages/blog.html' target='_blank'>",
     "blog</a>",
@@ -937,6 +939,21 @@
       "required": false
     },
     {
+      "label": [
+        "Please upload your",
+        "<a href='https://chadthunderkok.com/blog/2025/07/05/video-essay-submission' target='_blank'>",
+        "video essay</a>",
+        "(minimum 5 minutes) to a private",
+        "link-sharing platform such as YouTube (unlisted), Dropbox, or similar,",
+        " and paste the URL below.",
+        "This is a required part of the application.",
+        "Submissions without a valid video will not be considered"
+      ],
+      "name": "video_essay_url",
+      "type": "url",
+      "required": true
+    },
+    {
       "label": "Currently how many different people are you dating/talking to",
       "name": "current_dating_pool",
       "type": "number",
@@ -1349,7 +1366,12 @@
         "(<a href='https://chadthunderkok.com/blog/2024/08/21/dating-expectations' target='_blank'>",
         "Dating Expectations",
         "</a>)",
-        "in its entirety, that you have extensively reviewed the content",
+        "in its entirety,",
+        "that the URL for your",
+        "<a href='https://chadthunderkok.com/blog/2025/07/05/video-essay-submission' target='_blank'>",
+        "video essay</a>",
+        "is correct and that you are the individual in the video,",
+        "and that you have extensively reviewed the content",
         "on my",
         "<a href='https://chadthunderkok.com/pages/blog.html' target='_blank'>",
         "blog</a>",
