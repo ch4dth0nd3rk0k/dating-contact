@@ -29,10 +29,10 @@
       "required": true
     },
     {
-      "label": "Phone Number (optional)",
+      "label": "Phone Number",
       "name": "phone_number",
       "type": "tel",
-      "required": false
+      "required": true
     },
     {
       "label": "Name",
@@ -1134,15 +1134,14 @@
     {
       "label": [
         "Please add the account/user name(s)",
-        "for the above selected social media platforms",
-        "(optional)"
+        "for the above selected social media platforms"
       ],
       "name": "social_account_names",
       "type": "textarea",
-      "required": false
+      "required": true
     },
     {
-      "label": "Optionally add a personal website",
+      "label": "If you have a personal website please add it below",
       "name": "personal_website",
       "type": "url",
       "required": false
@@ -1242,10 +1241,7 @@
         "The specific time will be scheduled during the initial contact",
         "after submission.",
         "The date will last at least 30 minutes to 1 hour, possibly longer",
-        "if time permits.",
-        "If you do not want to share your phone number,",
-        "<a href='https://telegram.org/' target='_blank'>Telegram</a>",
-        "is a viable private alternative"
+        "if time permits"
       ],
       "name": "phone_date_availability",
       "type": "selectbox",
