@@ -8,9 +8,7 @@
     "After reading that post, if you are still interested in contacting me",
     "please read the following article on",
     "<a href='https://chadthunderkok.com/blog/2024/08/21/dating-expectations' target='_blank'>",
-    "dating expectations</a>, and complete and upload a",
-    "<a href='https://chadthunderkok.com/blog/2025/07/05/video-essay-submission' target='_blank'>",
-    "video essay</a>.",
+    "dating expectations</a>.",
     "I would strongly recommend that you review the content posted on my",
     "<a href='https://chadthunderkok.com/pages/blog.html' target='_blank'>",
     "blog</a>",
@@ -891,73 +889,6 @@
       }
     },
     {
-      "label": [
-        "What role(s) are you applying for?",
-        "Please choose from the following:",
-        "<ul>",
-        "<li>Potential Girlfriend / Romantic Match: Looking for a romantic, long-term connection.</li>",
-        "&nbsp;",
-        "<li>Content Collaborator / Interviewee: Interested in contributing to creative projects, interviews, or discussions.</li>",
-        "&nbsp;",
-        "<li>Submissive Role: Seeking a consensual Dominant/submissive dynamic where <i>you</i> will be my submissive and <i>I</i> will be your Dominant.</li>",
-        "&nbsp;",
-        "<li>Other: Something else not listed here (please specify below).</li>",
-        "</ul>",
-        "Select all the roles you are interested in below (you can choose more than one)"
-      ],
-      "name": "applicant_role",
-      "type": "selectbox",
-      "required": true,
-      "options": [
-        {
-          "label": "--Select one or more--",
-          "value": "",
-          "selected": true,
-          "disabled": true
-        },
-        {
-          "label": "Potential Girlfriend / Romantic Match",
-          "value": "girlfriend"
-        },
-        {
-          "label": "Content Collaborator / Interviewee",
-          "value": "collaborator"
-        },
-        {
-          "label": "Submissive / D/s Role",
-          "value": "submissive"
-        },
-        {
-          "label": "Other (please specify below)",
-          "value": "other"
-        }
-      ],
-      "custom": {
-        "multiple": true
-      }
-    },
-    {
-      "label": "If you selected 'Other', please specify",
-      "name": "applicant_role_other",
-      "type": "textarea",
-      "required": false
-    },
-    {
-      "label": [
-        "Please upload your",
-        "<a href='https://chadthunderkok.com/blog/2025/07/05/video-essay-submission' target='_blank'>",
-        "video essay</a>",
-        "(minimum 5 minutes) to a private",
-        "link-sharing platform such as YouTube (unlisted), Dropbox, or similar,",
-        " and paste the URL below.",
-        "This is a required part of the application.",
-        "Submissions without a valid video will not be considered"
-      ],
-      "name": "video_essay_url",
-      "type": "url",
-      "required": true
-    },
-    {
       "label": "Currently how many different people are you dating/talking to",
       "name": "current_dating_pool",
       "type": "number",
@@ -1370,11 +1301,6 @@
         "(<a href='https://chadthunderkok.com/blog/2024/08/21/dating-expectations' target='_blank'>",
         "Dating Expectations",
         "</a>)",
-        "in its entirety,",
-        "that the URL for your",
-        "<a href='https://chadthunderkok.com/blog/2025/07/05/video-essay-submission' target='_blank'>",
-        "video essay</a>",
-        "is correct and that you are the individual in the video,",
         "and that you have extensively reviewed the content",
         "on my",
         "<a href='https://chadthunderkok.com/pages/blog.html' target='_blank'>",
